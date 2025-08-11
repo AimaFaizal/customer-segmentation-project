@@ -1,36 +1,16 @@
-# customer-segmentation-project
-Customer segmentation and lookalike modeling using Python
+# Customer Segmentation & Lookalike Modeling
 
-# Customer Segmentation & Lookalike Modeling Project
-
-![Cluster Analysis](images/cluster_analysis.png)
+![Customer Segments](images/cluster_analysis.png)
 
 ## Project Overview
-This project identifies customer segments using K-Means clustering and finds lookalike customers for targeted marketing.
+This project segments customers into strategic groups using K-Means clustering and identifies high-potential lookalike prospects.
 
-## Key Features
-- Customer segmentation using K-Means
-- Lookalike audience modeling
-- Business insights generation
+## How to Use
+1. Open the [Jupyter Notebook](notebooks/Customer_Segmentation.ipynb)
+2. Run all cells
+3. Explore results in `data/` folder
 
-## Tech Stack
-- Python 3.10
-- Scikit-learn
-- Pandas
-- Matplotlib/Seaborn
-
-## How to Run
-1. Open the notebook in Google Colab:  
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/customer-segmentation-project/blob/main/notebooks/Customer_Segmentation.ipynb)
-2. Upload the dataset to Colab
-3. Run all cells sequentially
-
-## Results Summary
-Identified 4 customer segments:
-
-| Segment | Characteristics | % Customers | Marketing Strategy |
-|---------|----------------|------------|-------------------|
-| 0 | Budget-Conscious | 25% | Value bundles, discounts |
-| 1 | Digital-First | 30% | Social media retargeting |
-| 2 | Credit-Reliant | 20% | Installment payments |
-| 3 | Premium Loyalists | 25% | VIP programs, early access |
+## Key Findings
+- Identified 4 distinct customer segments
+- High-value segment (Premium Loyalists) contains 25% of customers
+- Generated list of 100 lookalike prospects
