@@ -215,6 +215,5 @@ gantt
 
 ---
 
-**Developed by [Your Name]**  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat&logo=linkedin)](https://linkedin.com/in/yourprofile)
-[![Portfolio](https://img.shields.io/badge/Portfolio-View%20Projects-green?style=flat)](https://yourportfolio.com)
+
+
